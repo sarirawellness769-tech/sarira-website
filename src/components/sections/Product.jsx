@@ -16,15 +16,7 @@ export function Product() {
         </div>
         
         <div className="flex flex-col lg:flex-row items-center gap-12">
-          <div className="lg:w-1/2 flex justify-center">
-            <img
-              src={IMAGES.productMain}
-              alt="SARIRA Fig Malt Pouch"
-              className="w-full max-w-md mx-auto rounded-lg shadow-xl animate-floating"
-            />
-          </div>
-          
-          <div className="lg:w-1/2">
+          <div className="w-full">
             <div className="mb-8">
               <h3 className="text-2xl font-bold text-primary mb-4">Key Benefits</h3>
               <ul className="space-y-3">
